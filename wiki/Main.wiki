@@ -16,10 +16,17 @@ As of Nov 13, 2007 the first public release is available. This release is capabl
 
 = Images =
 
-http://microgear.googlecode.com/svn/wiki/Main.attach/ground-station1.jpg
-http://microgear.googlecode.com/svn/wiki/Main.attach/racetrack.png
-http://microgear.googlecode.com/svn/wiki/Main.attach/tm1.jpg
-http://microgear.googlecode.com/svn/wiki/Main.attach/tm2.jpg
+[ http://microgear.googlecode.com/svn/wiki/Main.attach/ground-station1.jpg
+http://microgear.googlecode.com/svn/wiki/Main.attach/ground-station1-small.jpg ]
+
+[ http://microgear.googlecode.com/svn/wiki/Main.attach/racetrack.png
+http://microgear.googlecode.com/svn/wiki/Main.attach/racetrack-small.png ]
+
+[ http://microgear.googlecode.com/svn/wiki/Main.attach/tm1.jpg
+http://microgear.googlecode.com/svn/wiki/Main.attach/tm1-small.jpg ]
+
+[ http://microgear.googlecode.com/svn/wiki/Main.attach/tm2.jpg
+http://microgear.googlecode.com/svn/wiki/Main.attach/tm2-small.jpg ]
 
 
 = Features =
