@@ -20,24 +20,17 @@ Here is a quick summary of the current feature set:
 
     * Altitude hold, pitch angle, and rate of climb hold modes.
     * Wing leveler and arbitrary bank angle hold modes.
-    * Waypoint following with "unlimited" route lengths. (Limited only by size of available RAM.)
-    * Based on the MNAV v1.4 code from the primary MNAV site.
-    * The code has been reorganized to into related functionality groups so it can be navigated and understood more quickly.
-    * The complicated threading structure has been replaced with a much simpler single threaded architecture.
-    * The code has been converted to C++ (resulting in the same disk space, memory footprint, and performance.) This will make it easier to add new advanced features and incorporate existing well tested code from other projects. The new features will increase the memory and disk space footprint of course, but all development will be designed to still fit inside a gumstix/stargate class computer.
-    * An automake/autoconf build system has been introduced.
-    * A large number of clean ups and consistency changes have been implemented.
-    * Transmitter inputs or autopilot control surface outputs are logged.
+    * Speed hold by manipulating elevator or throttle.
+    * Altitude hold by manipulating throttle or elevator.
+    * Waypoint following with "unlimited" route lengths. (Limited only by size of available RAM and flash storage.)
+    * Includes many design concepts and structures from the FlightGear project.
+    * Derives some code from MNAV v1.4 code (see http://www.sf.net/projects/micronav)
+    * The code has been organized to into related functionality groups so it can be navigated and understood more quickly.
+    * The code is written in C/C++ and compiles on a variety of linux and posix systems.
+    * Includes automake/autoconf configurations to automate and streamline the build process.
+    * Transmitter inputs and autopilot control surface outputs can be logged.
     * A console link has been implemented that sends data over the console line in a robust manner with markers for the start of a packet and strong check summing. This enables communication over longer range (but slower) radio modems.
     * Primary target is the GumStix, but the code should run on any linux platform.
     * New FlightGear style property state tree incorporated into the code structure.
     * XML config file parser (interfaces to the property state tree.)
     * Autopilot configurations are defined in XML files and can be quickly changed on the fly without recompiling any code. 
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
