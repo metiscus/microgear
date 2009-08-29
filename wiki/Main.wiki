@@ -1,4 +1,4 @@
-#summary Top level MicroGear page
+﻿#summary Top level MicroGear page
 
 = Introduction =
 
@@ -12,6 +12,14 @@ MicroGear has powered many hours of autonomous flight in a variety of airframes.
 = Status =
 
 As of Nov 13, 2007 the first public release is available. This release is capable of sustained route following and reliable altitude hold. The license terms are GPL. 
+
+
+= Images =
+
+http://microgear.googlecode.com/svn/wiki/Main.attach/ground-station1.jpg
+http://microgear.googlecode.com/svn/wiki/Main.attach/racetrack.png
+http://microgear.googlecode.com/svn/wiki/Main.attach/tm1.jpg
+http://microgear.googlecode.com/svn/wiki/Main.attach/tm2.jpg
 
 
 = Features =
